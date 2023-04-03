@@ -5,13 +5,9 @@ const nextConfig = {
 
 module.exports = {
   images: {
-    remotePatterns: [
-      {
-        protocol: 'https',
-        hostname: 'www.pixelstalk.net',
-        port: '',
-        pathname: '/wp-content/uploads/2016/07/**',
-      },
+    domains: [
+      'images8.alphacoders.com','openweathermap.org','pbs.twimg.com'
     ],
   },
 }
+
